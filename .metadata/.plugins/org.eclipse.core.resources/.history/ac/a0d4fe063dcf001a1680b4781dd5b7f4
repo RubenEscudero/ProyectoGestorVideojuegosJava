@@ -1,0 +1,21 @@
+package main;
+
+import java.awt.Composite;
+
+import org.eclipse.swt.SWT;
+
+import gui.Controlador;
+import gui.Modelo;
+import gui.Vista;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Modelo modelo = new Modelo();
+		Vista vista = new Vista(, 1);
+		Controlador controlador = new Controlador(vista, modelo);
+
+	}
+
+}

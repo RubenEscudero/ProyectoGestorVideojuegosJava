@@ -15,3 +15,199 @@ user global configuration and to define the default location to store repositori
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-07-26 13:37:56.765 -----------------------------------------------
+eclipse.buildId=4.12.0.I20190605-1800
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_ES
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2020-07-26 13:38:00.454
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-07-26 13:38:01.045
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-07-26 13:38:01.045
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@44106e25,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@57a5b03,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-07-26 13:38:05.303
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ruben'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ui 2 2 2020-07-26 13:38:22.148
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:06.624
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:06.637
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@47db4296[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=761)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:06.645
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:06.681
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.425
+!MESSAGE Boot LS startup time from start to initialized: 1765ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.447
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lNOJivKVisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.454
+!MESSAGE subscribing to classpath changes: sts4.classpath.lNOJivKV isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.460
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.467
+!MESSAGE subsribers = {sts4.classpath.lNOJivKV=Send Classpath Notifications(712)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.473
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.477
+!MESSAGE project GestorVideojuegos ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.482
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.487
+!MESSAGE Preparing classpath changed notification GestorVideojuegos
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.491
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.lNOJivKV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.495
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.503
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.508
+!MESSAGE buffering callback sts4.classpath.lNOJivKV GestorVideojuegos false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.513
+!MESSAGE executing callback sts4.classpath.lNOJivKV 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:39:08.531
+!MESSAGE executing callback sts4.classpath.lNOJivKV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:40:45.624
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lNOJivKV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:40:45.636
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.lNOJivKV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:40:45.643
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:40:45.655
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.lNOJivKV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:08.161
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:08.166
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@47db4296[org.springframework.tooling.boot.ls:1.14.0.201912170939(id=761)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:08.171
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.563
+!MESSAGE Boot LS startup time from start to initialized: 1387ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.586
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iBOPeXqHisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.592
+!MESSAGE subscribing to classpath changes: sts4.classpath.iBOPeXqH isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.597
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.601
+!MESSAGE subsribers = {sts4.classpath.iBOPeXqH=Send Classpath Notifications(805)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.607
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.612
+!MESSAGE project GestorVideojuegos ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.616
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.620
+!MESSAGE Preparing classpath changed notification GestorVideojuegos
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.624
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.iBOPeXqH => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.628
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.633
+!MESSAGE classpath=26 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.638
+!MESSAGE buffering callback sts4.classpath.iBOPeXqH GestorVideojuegos false 26
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.642
+!MESSAGE executing callback sts4.classpath.iBOPeXqH 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 13:41:09.656
+!MESSAGE executing callback sts4.classpath.iBOPeXqH SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.metadata.repository 4 1002 2020-07-26 14:32:46.210
+!MESSAGE Unable to read repository at http://www.objectaid.net/update.
+!STACK 0
+java.io.IOException: http://www.objectaid.net/update is not a valid repository location.
+	at org.eclipse.equinox.internal.p2.metadata.repository.SimpleMetadataRepositoryFactory.load(SimpleMetadataRepositoryFactory.java:103)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.factoryLoad(MetadataRepositoryManager.java:63)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:759)
+	at sun.reflect.GeneratedMethodAccessor72.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:119)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:423)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:214)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:495)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.getAvailableRepositories(UpdateChecker.java:152)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:130)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 14:43:20.729
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iBOPeXqH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 14:43:20.736
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iBOPeXqH
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 14:43:20.741
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-07-26 14:43:20.750
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iBOPeXqH => OK

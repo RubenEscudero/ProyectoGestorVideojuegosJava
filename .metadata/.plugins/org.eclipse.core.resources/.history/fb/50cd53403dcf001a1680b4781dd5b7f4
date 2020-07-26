@@ -1,0 +1,23 @@
+package main;
+
+
+import java.awt.GridLayout;
+
+import org.eclipse.swt.SWT;
+import org.eclipse.swt.widgets.Composite;
+
+import gui.Controlador;
+import gui.Modelo;
+import gui.Vista;
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		Modelo modelo = new Modelo();
+		Vista vista = new Vista(new GridLayout(2, false), 1);
+		Controlador controlador = new Controlador(vista, modelo);
+
+	}
+
+}

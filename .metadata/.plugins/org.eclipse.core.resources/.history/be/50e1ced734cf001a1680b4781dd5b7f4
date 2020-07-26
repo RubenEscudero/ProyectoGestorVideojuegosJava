@@ -1,0 +1,13 @@
+package gui;
+
+public class Controlador {
+	
+	private Modelo modelo;
+	private Vista vista;
+	
+	public Controlador(Vista vista, Modelo modelo) {
+		this.modelo = modelo;
+		this.vista = vista;
+	}
+
+}
