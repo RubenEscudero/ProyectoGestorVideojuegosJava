@@ -1,0 +1,28 @@
+package gui;
+
+import java.util.ArrayList;
+
+public class Modelo {
+	private ArrayList<String> listaJuegos;
+	
+	
+	private Modelo() {
+		this.listaJuegos = new ArrayList<String>();
+	}
+	
+	private void listarJuegos() {
+		
+	}
+
+	public ArrayList<String> getListaJuegos() {
+		return listaJuegos;
+	}
+
+
+	public void setListaJuegos(ArrayList<String> listaJuegos) {
+		this.listaJuegos = listaJuegos;
+	}
+	
+	
+
+}

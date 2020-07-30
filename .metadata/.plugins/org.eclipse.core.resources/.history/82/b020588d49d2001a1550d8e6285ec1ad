@@ -1,0 +1,49 @@
+package gui;
+
+import java.io.File;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import com.google.gson.Gson;
+import com.google.gson.JsonObject;
+import com.google.gson.JsonParser;
+import com.google.gson.reflect.TypeToken;
+
+import base.Videojuego;
+
+public class Modelo {
+	private ArrayList<Videojuego> listaJuegos;
+	private Gson gson;
+	
+	public Modelo() {
+		this.listaJuegos = new ArrayList<Videojuego>();
+		gson = new Gson();
+	}
+	
+	//Recibo el fichero
+	public void listarJuegos(File file) {
+		String json = gson.toJson(file);
+		final Type tipoListaVideojuegos = new TypeToken<List<Videojuego>>(){}.getType();
+		listaJuegos = gson.fromJson(json, tipoListaVideojuegos);
+		
+		for (Videojuego videojuego : listaJuegos) {
+			System.out.println(listaJuegos);
+		}
+	}
+
+	public ArrayList<Videojuego> getListaJuegos() {
+		return listaJuegos;
+	}
+
+
+	public void setListaJuegos(ArrayList<Videojuego> listaJuegos) {
+		this.listaJuegos = listaJuegos;
+	}
+	
+	
+
+}

@@ -1,5 +1,45 @@
 package gui;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
+import java.lang.reflect.Type;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+import javax.swing.JFileChooser;
+import javax.swing.filechooser.FileNameExtensionFilter;
+
+import base.Videojuego;
+
 public class Modelo {
+	private ArrayList<Videojuego> listaJuegos;
+	private File file;
+	
+	public Modelo() {
+		this.listaJuegos = new ArrayList<Videojuego>();
+	}
+	
+	//Recibo el fichero
+	public void cargarFichero(File file) throws FileNotFoundException {
+		this.file = file;
+		FileReader fileReader = new FileReader(new File(file.getPath()));
+		Scanner ficheroLeer = new Scanner(fileReader);
+		while(ficheroLeer.hasNextLine()) {
+			System.out.println(ficheroLeer.nextLine());
+		}
+	}
+
+	public ArrayList<Videojuego> getListaJuegos() {
+		return listaJuegos;
+	}
+
+
+	public void setListaJuegos(ArrayList<Videojuego> listaJuegos) {
+		this.listaJuegos = listaJuegos;
+	}
+	
+	
 
 }

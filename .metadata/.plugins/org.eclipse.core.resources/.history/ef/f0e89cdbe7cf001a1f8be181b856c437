@@ -1,0 +1,27 @@
+package gui;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Controlador implements ActionListener{
+	
+	private Modelo modelo;
+	private Vista vista;
+	
+	public Controlador(Vista vista, Modelo modelo) {
+		this.vista = vista;
+		this.modelo = modelo;
+		
+	}
+	
+	private void addActionListener(ActionListener listener) {
+		
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		
+	}
+	
+}

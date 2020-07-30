@@ -1,0 +1,11 @@
+package gui;
+
+public class Modelo {
+	private ArrayList<String> listaJuegos;
+	
+	
+	private Modelo() {
+		
+	}
+
+}

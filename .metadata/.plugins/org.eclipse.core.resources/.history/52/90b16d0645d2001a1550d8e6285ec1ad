@@ -1,0 +1,19 @@
+package base;
+
+import java.util.Date;
+
+public class Videojuego {
+	private String name;
+	private String edition;
+	private String platform;
+	private Date added_on;
+	private Date release_date;
+	
+	public Videojuego(String name, String edition, String platform, Date added_on, Date release_date) {
+		this.name = name;
+		this.edition = edition;
+		this.platform = platform;
+		this.added_on = added_on;
+		this.release_date = release_date;
+	}
+}

@@ -1,0 +1,33 @@
+package gui;
+
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class Controlador implements ActionListener{
+	
+	private Modelo modelo;
+	private Vista vista;
+	
+	public Controlador(Vista vista, Modelo modelo) {
+		this.vista = vista;
+		this.modelo = modelo;
+		addActionListener(this);
+		
+	}
+	
+	private void addActionListener(ActionListener listener) {
+		vista.menuItemAbrir.addActionListener(listener);
+		vista.menuItemGuardar.addActionListener(listener);
+		vista.menuItemGuardarComo.addActionListener(listener);
+		vista.menuItemAnadir.addActionListener(listener);
+		vista.menuItemEliminar.addActionListener(listener);
+		vista.menuItemModificar.addActionListener(listener);
+	}
+
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		
+		
+	}
+	
+}

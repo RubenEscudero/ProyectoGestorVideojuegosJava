@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;tipoListaEmpleados&apos; in &apos;gui.Modelo.listarJuegos(...)&apos; to &apos;tipoListaVideojuegos&apos;&#x0D;&#x0A;- Original project: &apos;GestorVideojuegos&apos;&#x0D;&#x0A;- Original element: &apos;gui.Modelo.listarJuegos(File).tipoListaEmpleados&apos;&#x0D;&#x0A;- Renamed element: &apos;tipoListaEmpleados&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;tipoListaEmpleados&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;gui{Modelo.java[Modelo~listarJuegos~QFile;@tipoListaEmpleados!650!727!661!678!QType;!16!false" name="tipoListaVideojuegos" references="true" stamp="1596101758691" version="1.0"/>
+</session>
